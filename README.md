@@ -7,25 +7,24 @@
         visit the [punctalyze](https://github.com/ocarmo/punctalyze) and click **"Fork"**
         this gives you a personal copy at `https://github.com/YOUR_USERNAME/punctalyze`
 - [ ] clone your fork locally by clicking **"<>Code"** at the top right of the GitHub page, then **"Open with GitHub Desktop"**
-- [ ] select your local path and open the repo open in VS Code
-- [ ] create a new branch named <your_name>_dev, always use this branch when making changes
+- [ ] select your local path and open the repo by clicking the **"open in VS Code"** option
+- [ ] create a new branch named yourname_dev, always use this branch when making changes
 - [ ] continue to the checklist below
 
-### if you already have a forked version of the punctalyze repository:
+### if you already forked punctalyze: make your own image analysis repo
 - [ ] click the **"Use this template"** button at the top right of this template repository
 - [ ] name your project and click **"Create repository from template"**
 - [ ] clone onto your local device
 - [ ] uncomment raw_data folders in gitignore 
 - [ ] delete placeholder files raw_data folders
-- [ ] upload raw data, or update the path in ```1_intial_cleanup.py```
-- [ ] update *header* at top of README.md and *experiment details* below
-- [ ] activate bioimage-fast (conda) environment and import editable analysis submodule in vscode terminal: 
+- [ ] import the editable analysis submodule in vscode terminal: 
 ~~~ 
-conda activate bioimage-fast
-git submodule add https://github.com/<your_github>/<your_punctalyze_branch>.git punctalyze 
+git submodule add https://github.com/your_github/your_punctalyze_branch.git punctalyze 
 git submodule update --init --recursive
 ~~~
         ^^^ this adds the shared punctalyze pipeline to your repository
+- [ ] update *header* at top of README.md and *experiment details* below
+- [ ] upload raw data, or update the input_path in ```1_initial_cleanup.py```
 
 ## Experiment details
 
@@ -51,7 +50,7 @@ See results folder
 - plotting
 
 ## Making contributions to punctalyze
-### if you make changes to your fork that you want to merge to the main branch:
+### if you make changes to your fork that you want to merge to the main branch at [punctalyze](https://github.com/ocarmo/punctalyze):
 - [ ] push your commits in VS Code source control
 - [ ] go to your fork on GitHub
 - [ ] click Compare & pull request
