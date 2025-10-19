@@ -1,6 +1,6 @@
 # ANA-XX_brief-description
 
-*Advice for use*: This repository uses core scripts managed in a separate repository ([punctalyze](https://github.com/ocarmo/punctalyze)) to promote modularity and code reuse across projects. e module which is under heavy construction. The checklist below outlines the steps to initiate an experiment repository in a tidy manner and add the analysis submodule. The punctalyze module is under heavy construction, any changes should be committed in a non-breaking manner, as they link to the main branch. Where experiment specific changes are required, consider creating a new csat_calcs branch. Please check off the tick boxes with an 'x' as you go. This repository assumes elementary knowledge of python and git.
+*Advice for use*: This repository uses core scripts managed in a separate repository ([punctalyze](https://github.com/ocarmo/punctalyze)) to promote modularity and code reuse across projects in the Boeynaems lab. The checklist below outlines the steps to initiate an experiment repository in a tidy manner and add the analysis submodule. The punctalyze module is under heavy construction, any changes should be committed in a non-breaking manner, as they link to the main branch. Please check off the tick boxes with an 'x' as you go. This repository assumes elementary knowledge of python and git.
 
 ### if you have not already forked the punctalyze repository:
 - [ ] fork the core pipeline if you have not already
@@ -15,14 +15,15 @@
 - [ ] click the **"Use this template"** button at the top right of this template repository
 - [ ] name your project and click **"Create repository from template"**
 - [ ] clone onto your local device
+- [ ] open this repository (which you just cloned) in VS Code or your editor of choice
 - [ ] uncomment raw_data folders in gitignore 
 - [ ] delete placeholder files raw_data folders
 - [ ] import the editable analysis submodule in vscode terminal: 
 ~~~ 
-git submodule add https://github.com/<your_github>/<your_punctalyze_fork>.git punctalyze 
+git submodule add https://github.com/YOUR_USERNAME/punctalyze.git punctalyze 
 git submodule update --init --recursive
 ~~~
-        ^^^ this adds your forked 'punctalyze' pipeline to your repository
+        ^^^ this adds your forked 'punctalyze' pipeline to this experiment repository
 - [ ] update *header* at top of README.md and *experiment details* below
 - [ ] upload raw data, or update the input_path in ```1_initial_cleanup.py```
 
