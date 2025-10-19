@@ -23,7 +23,7 @@
 git submodule add https://github.com/YOUR_USERNAME/punctalyze.git punctalyze 
 git submodule update --init --recursive
 ~~~
-        ^^^ this adds your forked 'punctalyze' pipeline to this experiment repository
+^^^ this adds your forked 'punctalyze' pipeline to this experiment repository
 - [ ] update *header* at top of README.md and *experiment details* below
 - [ ] upload raw data, or update the input_path in ```1_initial_cleanup.py```
 
@@ -68,7 +68,7 @@ git checkout main
 git merge upstream/main
 git push origin main
 ```
-🙌 Thanks for using and contributing to punctalyze. Your improvements help make image analysis easier for everyone.
+Thanks for using and contributing to punctalyze. Your improvements help make image analysis easier for everyone.
 
 If you have any questions, feel free to open an issue or contact the maintainer.
 
