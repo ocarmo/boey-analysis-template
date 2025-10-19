@@ -19,10 +19,10 @@
 - [ ] delete placeholder files raw_data folders
 - [ ] import the editable analysis submodule in vscode terminal: 
 ~~~ 
-git submodule add https://github.com/your_github/your_punctalyze_branch.git punctalyze 
+git submodule add https://github.com/<your_github>/<your_punctalyze_fork>.git punctalyze 
 git submodule update --init --recursive
 ~~~
-        ^^^ this adds the shared punctalyze pipeline to your repository
+        ^^^ this adds your forked 'punctalyze' pipeline to your repository
 - [ ] update *header* at top of README.md and *experiment details* below
 - [ ] upload raw data, or update the input_path in ```1_initial_cleanup.py```
 
