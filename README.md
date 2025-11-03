@@ -21,7 +21,6 @@
 - [ ] import the editable analysis submodule in vscode terminal: 
 ~~~ 
 git submodule add https://github.com/YOUR_USERNAME/punctalyze.git punctalyze 
-git submodule update --init --recursive
 ~~~
 ^^^ this adds your forked 'punctalyze' pipeline to this experiment repository
 - [ ] update *header* at top of README.md and *experiment details* below
